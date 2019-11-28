@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@RequestMapping("/hello")
 	public String display() {
-		return "Springboot demo message";
+		return "Springboot demo msg";
 	}
 
 }
